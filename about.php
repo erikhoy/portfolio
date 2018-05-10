@@ -1,0 +1,5 @@
+<?php require_once('header.php'); ?>
+
+<p><img src="img/erik2.jpg" align="right" style="float: right">I'm a Frontend and Backend Web Developer, native to Denver, Colorado. My design aesthetic is minimalistic, my graphic design is influenced by years of skateboarding and the beauty we get to witness daily here in Colorful Colorado. My code is efficient, and my knowledgebase expansive. I have a knack for solving problems, and a thirst for gaining new knowledge.<!-- A web designer and developer living in Denver, Colorado, I built this site to shed a little light on who I am as a person, highlight some of my computer <a href="skills.html">skills</a>, give some <a href="skills.html">examples</a> of previous work and projects, as well as illustrate some of my tech-savviness.--> If you see something here you like, be sure to visit my <a href="contact.html">Contact</a> page to get in touch with me.</p>
+
+<?php require_once('footer.php'); ?>
