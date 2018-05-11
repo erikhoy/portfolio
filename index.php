@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 <div>
   <!--Main section-->
   <main id="main" role="main" class="inner cover">
@@ -120,8 +120,7 @@
         <div class="album py-5">
           <div class="container">
             <div class="row">
-              
-              <!-- Portfolio 1 -->
+              <!-- Portfolio 1 - Viridian Revival -->
               <div class="col-md-6 col-lg-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/viridian_revival.jpg" alt="Viridian Revival Website">
@@ -137,39 +136,35 @@
                     </div>
                   </div>
                 </div>
-                <div id="modal1" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal1')"></i>
-                  <div class="w3-modal-content">
+                <div id="modal1" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col-md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
+                        <header class="w3-container w3-light-grey">
+                          <h3>Viridian Revival Website</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal1')"></i>
+                        </header>
 
-                    <div class="w3-content" style="max-width:1200px">
-                      <div>
-                        <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal1')"></i>
-                        <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal1')"></i>
-                      </div>
-                      <div class="content-row row">
-                        <div class="col-md-8">
-                          <img class="mySlides" src="img/portf/viridian_revival.jpg">
+                        <div class="w3-container">
+                          <p><p>Front end website and OMS for Viridian&nbsp;Revival</p>
+                            <p>OOP PHP, MariaDB, Bootstrap 3, CSS, JavaScript,&nbsp;jQuery</p>
+                          <hr>
+                          <div class="row justify-content-between">
+                            <div class="col-3 text-left">
+                              <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal2')"></i>
+                            </div>
+                            <div class="col-3 text-right">
+                              <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal2')"></i>
+                            </div>
+                          </div>
+                          <img class="mySlides" src="img/portf/viridian_revival.jpg" style="width:100%">
                         </div>
-                        <div class="col-md-4">
-                          <p>Front end website and OMS for Viridian&nbsp;Revival.</p>
-                          <p><small>PHP, MySQL, Bootstrap 3, HTML, CSS, JavaScript, jQuery</small></p>
-                          </p>
-                        </div>
                       </div>
-                      <div class="w3-row w3-black w3-center">
-                          
-                        <div class="w3-display-container">
-                            <p id="caption"></p>
-                            
-                        
-                        </div> <!-- End row -->
-                      </div>
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                    </div>
+                  </div>
+                </div>
               </div>
-              
-              <!-- Portfolio 2 -->
+              <!-- Portfolio 2 - Viridian Painting -->
               <div class="col-md-6 col-lg-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/viridian_painting.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Viridian Painting Website">
@@ -185,36 +180,42 @@
                     </div>
                   </div>
                 </div>
-                <div id="modal2" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal2')"></i>
-                  <div class="w3-modal-content">
-                    <div class="w3-content" style="max-width:1200px">
-                      <div>
-                        <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal2')"></i>
-                        <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal2')"></i>
-                      </div>
-                      <div class="content-row row">
-                        <div class="col-md-8">
-                          <img class="mySlides" src="img/portf/viridian_painting.jpg" style="width:100%">
-                          <img class="mySlides" src="img/portf/viridian_painting_gallery.jpg" style="width:100%">
-                        </div>
-                        <div class="col-md-4">
-                          <p>Front end website and OMS for Viridian&nbsp;Revival.</p>
-                          <p><small>PHP, MySQL, Bootstrap 3, HTML, CSS, JavaScript, jQuery</small></p>
-                          </p>
-                        </div>
-                        <div class="w3-row w3-black w3-center">
-                          <div class="w3-display-container">
-                            <p id="caption"></p>
+                <div id="modal2" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col-md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
+
+                        <header class="w3-container w3-light-grey">
+                          <h3>Viridian Painting Website</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal2')"></i>
+                        </header>
+
+                        <div class="w3-container">
+                          <p><p>Front end website and OMS for Viridian&nbsp;Painting</p>
+                            <p>CakePHP, MySQL, Bootstrap 3, CSS,&nbsp;JavaScript</p>
+                          <hr>
+                          <div>
+                            <div class="row justify-content-between">
+                              <div class="col-3 text-left">
+                                <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal2')"></i>
+                              </div>
+                              <div class="col-3 text-right">
+                                <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal2')"></i>
+                              </div>
+                            </div>
+                            <img class="mySlides" src="img/portf/viridian_painting.jpg" style="width:100%">
+                            <img class="mySlides" src="img/portf/viridian_painting_gallery.jpg" style="width:100%">
+                            
                           </div>
+
                         </div>
-                      </div> <!-- End row -->
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              
-              <!-- Portfolio 3 -->
+                
+              <!-- Portfolio 3 - Sensis -->
               <div class="col-md-6 col-lg-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/sensis.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Sensis">
@@ -222,62 +223,74 @@
                     <p class="card-text">Sensis Website</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group col-xs-10 offset-xs-1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal4');currentDiv(4)">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal3');currentDiv(4)">View</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="modal4" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal4')"></i>
-                  <div class="w3-modal-content">
+                <div id="modal3" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col-md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
 
-                    <div class="w3-content" style="max-width:1200px">
-                      <img class="mySlides" src="img/portf/sensis.jpg" style="width:100%">
-                      <div class="w3-row w3-black w3-center">
-                        <div class="w3-display-container">
-                          <p id="caption"></p>
+                        <header class="w3-container w3-light-grey">
+                          <h3>Sensis Website</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal3')"></i>
+                        </header>
+
+                        <div class="w3-container">
+                          <p>Front end website for Sensis</p>
+                          <p>Bootstrap 3, HTML5 Video, CSS</p>
+                          <img class="mySlides" src="img/portf/sensis.jpg" alt="Sensis Website" style="width:100%">
                         </div>
-                      </div> <!-- End row -->
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <!-- Portfolio 5 -->
-              <div class="col-md-4">
+              <!-- Portfolio 4 - BlackRock -->
+              <div class="col-md-6 col-lg-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/portf_blackrock.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="BlackRock Financials">
                   <div class="card-body">
                     <p class="card-text">BlackRock Financials</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group col-xs-10 offset-xs-1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal5');currentDiv(1, 'modal5')">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal4');currentDiv(1, 'modal4')">View</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="modal5" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal5')"></i>
-                  <div class="w3-modal-content">
+                <div id="modal4" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col-md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
+                        <header class="w3-container w3-light-grey">
+                          <h3>BlackRock Financials Website</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal4')"></i>
+                        </header>
+                        <div class="w3-container">
+                          <p>Front end website for BlackRock&nbsp;Financials</p>
+                          <p>HTML, CSS,&nbsp;jQuery</p>
+                          <hr>
+                          <div class="row justify-content-between">
+                            <div class="col-3 text-left">
+                              <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal4')"></i>
+                            </div>
+                            <div class="col-3 text-right">
+                              <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal4')"></i>
+                            </div>
+                          </div>
 
-                    <div class="w3-content" style="max-width:1200px">
-                      <div>
-                        <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal5')"></i>
-                        <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal5')"></i>
-                      </div>
-                      <img class="mySlides" src="img/portf/portf_blackrock.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_blackrock2.jpg" style="width:100%">
-                      <div class="w3-row w3-black w3-center">
-                        <div class="w3-display-container">
-                          <p id="caption"></p>
+                          <img class="mySlides" src="img/portf/portf_blackrock.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_blackrock2.jpg" style="width:100%">
                         </div>
-                      </div> <!-- End row -->
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <!-- Portfolio 6 -->
+              <!-- Portfolio 5 -->
               <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/portf_wendys.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Wendy's Old Fashioned Hamburgers">
@@ -285,28 +298,31 @@
                     <p class="card-text">Wendy's Old Fashioned Hamburgers</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group col-xs-10 offset-xs-1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal6');currentDiv(6, 'modal6')">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal5');currentDiv(5, 'modal5')">View</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="modal6" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal6')"></i>
-                  <div class="w3-modal-content">
-
-                    <div class="w3-content" style="max-width:1200px">
-                      <img class="mySlides" src="img/portf/portf_wendys.jpg" style="width:100%">
-                      <div class="w3-row w3-black w3-center">
-                        <div class="w3-display-container">
-                          <p id="caption"></p>
+                <div id="modal5" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col--md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
+                        <header class="w3-container w3-light-grey">
+                          <h3>Wendy's Old Fashioned Hamburgers Website</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal5')"></i>
+                        </header>
+                        <div class="w3-container">
+                          <p>Preference website for Wendy's Old Fashioned&nbsp;Hamburgers</p>
+                          <p>HTML, CSS</p>
+                          <hr>
+                          <img class="mySlides" src="img/portf/portf_wendys.jpg" style="width:100%" alt="Wendy's Old Fashioned Hamburgers Website">
                         </div>
-                      </div> <!-- End row -->
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <!-- Portfolio 7 -->
+              <!-- Portfolio 6 - Electronic Arts -->
               <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="img/portf/portf_EANewsletterOct.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Electronic Arts">
@@ -314,34 +330,42 @@
                     <p class="card-text">Electronic Arts</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group col-xs-10 offset-xs-1">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal7');currentDiv(7, 'modal7')">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="openModal('modal6');currentDiv(6, 'modal6')">View</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="modal7" class="w3-modal w3-black w3-animate-zoom">
-                  <i class="fas fa-times" onclick="closeModal('modal7')"></i>
-                  <div class="w3-modal-content">
-
-                    <div class="w3-content" style="max-width:1200px">
-                      <div>
-                        <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal7')"></i>
-                        <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal7')"></i>
-                      </div>
-                      <img class="mySlides" src="img/portf/portf_EANewsletterOct.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_AOT.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_BF3_Sale.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_crysis3.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_DS3_walkthrough.jpg" style="width:100%">
-                      <img class="mySlides" src="img/portf/portf_MOHW_Trailer.jpg" style="width:100%">
-                      <div class="w3-row w3-black w3-center">
-                        <div class="w3-display-container">
-                          <p id="caption"></p>
+                <div id="modal6" class="w3-modal w3-animate-zoom">
+                  <div class="w3-modal-content col-md-6">
+                    <div class="w3-content content-row">
+                      <div class="w3-card-4">
+                        <header class="w3-container w3-light-grey">
+                          <h3>Electronic Arts Emails</h3>
+                          <i class="fas fa-times" onclick="closeModal('modal6')"></i>
+                        </header>
+                        <div class="w3-container">
+                          <p>Collection of Emails for Electronic Arts</p>
+                          <p>HTML, CSS</p>
+                          <hr>
+                          <div class="row justify-content-between">
+                            <div class="col-3 text-left">
+                              <i class="fas fa-angle-left" onclick="plusDivs(-1, 'modal6')"></i>
+                            </div>
+                            <div class="col-3 text-right">
+                              <i class="fas fa-angle-right" onclick="plusDivs(1, 'modal6')"></i>
+                            </div>
+                          </div>
+                          <img class="mySlides" src="img/portf/portf_EANewsletterOct.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_AOT.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_BF3_Sale.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_crysis3.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_DS3_walkthrough.jpg" style="width:100%">
+                          <img class="mySlides" src="img/portf/portf_MOHW_Trailer.jpg" style="width:100%">
                         </div>
-                      </div> <!-- End row -->
-                    </div> <!-- End w3-content -->
-                  </div> <!-- End modal content -->
-                </div> <!-- End modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -440,6 +464,6 @@
   </section> 
 </div> 
 <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-deep-orange">Top</button>
-<?php require_once('footer.php'); ?>
+<?php require_once('includes/footer.php'); ?>
 
       
