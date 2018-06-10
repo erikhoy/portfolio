@@ -6,7 +6,7 @@
       <div class="col-10 offset-1 align-items-center">
         <h1 class="responsive_headline">Hi. I'm Erik Hoy.</h1>
         <p class="lead">
-          I'm a web developer, an enthusiastic learner and a prolific artist, who is a native to Denver,&nbsp;Colorado.
+          I'm a web developer, an enthusiastic learner and a prolific artist, who is a native of Denver,&nbsp;Colorado.
           <br>
           I'm a lifelong skateboarder, a fan of punk rock music, and a lover of rats. If you're not deterred yet, I invite you to learn more about me. I'm actually a pretty nice&nbsp;guy.
         </p>
@@ -23,7 +23,7 @@
     </div>
     <div class="row">
       <div class="about-me col-10 offset-1 col-md-8 offset-md-1 text-justify">
-        <p>Growing up a punk rocker, I learned early on the meaning and importance of Do&ndash;It&ndash;Yourself, or DIY. I learned how to print my own t-shirts, cut my own hair, etc. Later, when I was in college, and was learning about computers, I gravitated towards the open source community, which seemed very DIY to me. I took a class in Linux, and subsequently got certified in Linux Administration, which led me to discover PHP, which is where my love of web development&nbsp;began.  
+        <p>Growing up a punk rocker, I learned early on the meaning and importance of Do&ndash;It&ndash;Yourself, or DIY. I learned how to print my own t-shirts and dye my own hair. Later, when I was in college, and was learning about computers, I gravitated towards the open source community, which seemed very DIY to me. I took a class in Linux, and subsequently got certified in Linux Administration, which led me to discover PHP, which is where my love of web development&nbsp;began.  
         </p>
         <p>Currently, I am working at <a href="http://viridianpainting.com" target="_blank">Viridian Painting</a>, where I built a website and order management system (OMS) using Bootstrap, CakePHP and jQuery, increasing sales, efficiency and revenue. I have also built a website and OMS for their sister company, <a href="http://viridianrevival.com" target="_blank">Viridian Revival</a> using PHP, MariaDB, Bootstrap, HTML, CSS, JavaScript and&nbsp;jQuery.</p>
         <p>While at bieMEDIA, Inc. I harnessed my knowledge of Linux, MVC, Apache, relational databases, RESTful APIs and version control to engineer a company-wide OMS using Linux, CakePHP, MySQL, Bootstrap, HTML, CSS, JavaScript, jQuery, AJAX and Git, while simultaneously troubleshooting the legacy OMS to solve frequent issues. While working for two of the top ten marketing agencies, I built cutting-edge emails for high-profile clients such as Sony, Samsung, Mercedes-Benz, Lexus, Wendy's Old Fashioned Hamburgers, TGI Friday's and others, and I delivered a 23-page website for Wendy's Hamburgers using HTML, CSS and JavaScript 40 hours under&nbsp;budget.</p>
@@ -33,7 +33,7 @@
             <a href="#skills" class="btn btn-lg btn-secondary cta">See My Skills</a>
           </div>
           <div class="col-sm-3 text-center">
-            <a href="#gallery" class="btn btn-lg btn-secondary cta">See My Gallery</a>
+            <a href="#gallery" class="btn btn-lg btn-secondary cta">See My Portfolio</a>
           </div>
           <div class="col-sm-3 text-center">
             <a href="#contact" class="btn btn-lg btn-secondary cta">Contact Me</a>
@@ -103,7 +103,10 @@
     <div class="row justify-content-center">
       <p>
         <div class="col-sm-3">
-          <a href="#gallery" class="btn btn-lg btn-secondary cta">See My Gallery</a>
+          <a href="#about" class="btn btn-lg btn-secondary cta">About Me</a>
+        </div>
+        <div class="col-sm-3">
+          <a href="#gallery" class="btn btn-lg btn-secondary cta">See My Portfolio</a>
         </div>
         <div class="col-sm-3">
           <a href="#contact" class="btn btn-lg btn-secondary cta">Contact Me</a>
@@ -116,7 +119,7 @@
   <section id="gallery">
     <div class="row">
       <div class="col-12">
-        <h2>Gallery</h2>
+        <h2>Portfolio</h2>
         <div class="album py-5">
           <div class="container">
             <div class="row">
